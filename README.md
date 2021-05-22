@@ -3,7 +3,9 @@
 
 ---
 
-## classification folder
+아래는 폴더별 코드 설명입니다.
+
+## Classification Folder
 
 ### 1. dog-vs-cat.ipynb
 
@@ -26,15 +28,29 @@
 
 ---
 
-## detection folder
+## Detection Folder
 
 ### 1. vinbigdata-train.ipynb
 
 ![vinbigdata-train_11_0](https://user-images.githubusercontent.com/63924704/119217159-31404380-bb13-11eb-8075-86ba0b6b28cc.png)
 
 * Chest X-ray 흉부 데이터에서 기형을 탐지하는 대회입니다.
-* `EfficientDet` 모델을 사용하였습니다. 옵티마이저는 `AdamW`을 사용했습니다.
+* `EfficientDet` 모델을 사용했습니다. 옵티마이저는 `AdamW`을 사용했습니다.
 * `ReduceLROnPlateau`을 적용했습니다.
+
+---
+
+## Segmentation Folder
+
+### 1. tgs_salt.ipynb
+
+![salt_image](https://user-images.githubusercontent.com/63924704/119217363-be37cc80-bb14-11eb-824e-d8c9549407fe.png)
+
+* 지표면 이미지에서 소금 영역을 찾아내는 대회입니다.
+* `UNet` 구조를 사용했습니다.
+* 이 대회의 평가 지표인 `Mean IOU`로 모델의 성능을 최적화했습니다.
+
+---
 
 If `"Sorry, something went wrong. Reload?"` sign appears, go to the link below and paste the url.
 
