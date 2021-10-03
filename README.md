@@ -53,9 +53,3 @@
 * 이 대회의 평가 지표인 `Mean IOU`로 모델의 성능을 최적화했습니다.
 
 ---
-
-# 코드가 안보이는 경우
-
-If `"Sorry, something went wrong. Reload?"` sign appears, go to the link below and paste the url.
-
-https://nbviewer.jupyter.org/
